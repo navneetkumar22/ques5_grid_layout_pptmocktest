@@ -11,7 +11,7 @@ body {
 .container {
     width: 70vw;
     height: 80vh;
-    margin: 50px auto;
+    margin: 40px auto;
 
     display: grid;
     gap: 15px;
