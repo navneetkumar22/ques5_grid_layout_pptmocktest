@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 70vw;
+    height: 80vh;
+    margin: 50px auto;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.one {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.one .box {
+    background: url(./assets/image2.jpg);
+    background-size: cover;
+}
+
+.two .box {
+    background: url(./assets/image1.jpg);
+    background-size: cover;
+}
+
+.three .box {
+    background: url(./assets/image3.jpg);
+    background-size: cover;
+}
